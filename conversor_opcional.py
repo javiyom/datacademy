@@ -26,7 +26,7 @@ elif opcion == 2:
     dolares = round(dolares, 2)
     dolares = str(dolares)
     print("tienes $" + dolares + " dolares")
-else opcion == 3:
+elif opcion == 3:
     pesos = input ("cuantos pesos ARGENTINOS tienes?:")
     pesos = float(pesos)
     valor_dolar = 105.16
@@ -34,3 +34,6 @@ else opcion == 3:
     dolares = round(dolares, 2)
     dolares = str(dolares)
     print("tienes $" + dolares + " dolares")
+else:
+    print('Solo hay 3 opciones, por favor elige una opcion disponible.')
+    
